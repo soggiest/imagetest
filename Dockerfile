@@ -1,4 +1,4 @@
-FROM registry.paas-sbox.amgen.com/openshift/tomcat8-openshift
+FROM tomcat
 
 COPY sample.war /opt/webserver/webapps/sample.war
 
